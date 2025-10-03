@@ -55,37 +55,31 @@ for i in range(5):
             print("You won!")
             print("")
             you_score += 1
-            continue
 
         if (computer == 0 and you_formated == -1):
             print("You won!")
             print("")
             you_score += 1
-            continue
 
         if (computer == -1 and you_formated == 1):
             print("You won!")
             print("")
             you_score += 1
-            continue
 
         if (computer == 1 and you_formated == -1):
             print("You lose!")
             print("")
             computer_score += 1
-            continue
 
         if (computer == 0 and you_formated == 1):
             print("You lose!")
             print("")
             computer_score += 1
-            continue
 
         if (computer == -1 and you_formated == 0):
             print("You lose!")
             print("")
             computer_score += 1
-            continue
 
 if (you_score == computer_score): 
     print("It's a Draw! in Bo5")
