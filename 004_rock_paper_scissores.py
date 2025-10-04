@@ -43,8 +43,6 @@ for i in range(5):
 
     print(f"Computer Choose: {binary_to_text[computer]}, You Choose: {binary_to_text[you_formated]}")
 
-    i += 1
-
     if computer == you_formated:
         print("It's a draw")
         print("")
